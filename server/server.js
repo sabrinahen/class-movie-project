@@ -18,6 +18,8 @@ require("./config/mongoose.config")
 
 require("./routes/movie.routes")(app)
 
+require("./routes/user.routes")(app)
+
 
 
 
